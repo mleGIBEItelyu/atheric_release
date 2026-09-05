@@ -37,7 +37,7 @@ Seluruh arsip versi terdahulu dan catatan pembaruan (*changelog*) dapat diakses 
 
 ## Panduan Instalasi Android
 
-1. Unduh berkas `app-release.apk` dari tautan rilis terbaru di atas.
+1. Unduh berkas `atheric_release.apk` dari tautan rilis terbaru di atas.
 2. Buka berkas yang telah selesai diunduh melalui notifikasi unduhan atau pengelola berkas (*File Manager*) perangkat Anda.
 3. Apabila sistem menampilkan konfirmasi izin keamanan instalasi aplikasi luar:
    - Pilih **Pengaturan** pada dialog yang muncul.
