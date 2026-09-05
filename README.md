@@ -16,7 +16,7 @@
 
 ## Distribusi Resmi Aplikasi
 
-Repositori ini dikhususkan sebagai kanal rilis publik, distribusi paket instalasi (*installer*), dan dokumentasi versi aplikasi **Atheric**. Source code utama dikembangkan dan dikelola secara terpusat di repositori internal privat untuk menjaga integritas sistem dan keamanan layanan.
+Repositori ini dikhususkan sebagai kanal rilis publik, distribusi paket instalasi (_installer_), dan dokumentasi versi aplikasi **Atheric**. Source code utama dikembangkan dan dikelola secara terpusat di repositori internal privat untuk menjaga integritas sistem dan keamanan layanan.
 
 Setiap berkas instalasi yang dipublikasikan di sini dibangun secara otomatis melalui pipeline CI/CD GitHub Actions terverifikasi langsung dari kode sumber resmi.
 
@@ -26,22 +26,22 @@ Setiap berkas instalasi yang dipublikasikan di sini dibangun secara otomatis mel
 
 Berkas rilis resmi dapat diunduh melalui tabel berikut atau melalui halaman rilis publik:
 
-| Platform | Format | Status | Tautan Unduhan |
-| :--- | :--- | :--- | :--- |
-| Android | APK | Stabil | [Unduh Paket APK Terbaru](../../releases/latest) |
-| Web Application | Browser | Live | [Kunjungi Platform Web](https://atheric.id) |
+| Platform        | Format  | Status | Tautan Unduhan                                   |
+| :-------------- | :------ | :----- | :----------------------------------------------- |
+| Android         | APK     | Stabil | [Unduh Paket APK Terbaru](../../releases/latest) |
+| Web Application | Browser | Live   | [Kunjungi Platform Web](https://atheric.id)      |
 
-Seluruh arsip versi terdahulu dan catatan pembaruan (*changelog*) dapat diakses pada halaman **[Daftar Rilis](../../releases)**.
+Seluruh arsip versi terdahulu dan catatan pembaruan (_changelog_) dapat diakses pada halaman **[Daftar Rilis](../../releases)**.
 
 ---
 
 ## Panduan Instalasi Android
 
 1. Unduh berkas `atheric_release.apk` dari tautan rilis terbaru di atas.
-2. Buka berkas yang telah selesai diunduh melalui notifikasi unduhan atau pengelola berkas (*File Manager*) perangkat Anda.
+2. Buka berkas yang telah selesai diunduh melalui notifikasi unduhan atau pengelola berkas (_File Manager_) perangkat Anda.
 3. Apabila sistem menampilkan konfirmasi izin keamanan instalasi aplikasi luar:
    - Pilih **Pengaturan** pada dialog yang muncul.
-   - Aktifkan opsi **Izinkan dari sumber ini** (*Allow from this source*).
+   - Aktifkan opsi **Izinkan dari sumber ini** (_Allow from this source_).
 4. Lanjutkan proses pemasangan hingga selesai.
 5. Jalankan aplikasi Atheric, lalu masuk dengan akun terdaftar atau buat akun baru.
 
@@ -56,9 +56,10 @@ Aplikasi mobile dilengkapi dengan fitur pembaruan terintegrasi pada menu **Penga
 ## Verifikasi & Keamanan
 
 Setiap berkas rilis melewati tahapan validasi otomatis sebelum dipublikasikan:
+
 - Pemindaian integritas kode dan ketergantungan paket.
-- Kompilasi biner langsung di lingkungan *runner* GitHub Actions yang terisolasi.
-- Tanda tangan digital (*release signature*) untuk memastikan aplikasi terbebas dari modifikasi tidak resmi.
+- Kompilasi biner langsung di lingkungan _runner_ GitHub Actions yang terisolasi.
+- Tanda tangan digital (_release signature_) untuk memastikan aplikasi terbebas dari modifikasi tidak resmi.
 
 ---
 
