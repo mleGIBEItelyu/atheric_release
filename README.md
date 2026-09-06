@@ -31,10 +31,10 @@ Seluruh berkas biner yang dipublikasikan di kanal ini telah melalui proses kompi
 
 Paket instalasi resmi dapat diunduh langsung melalui tautan rilis berikut:
 
-| Platform         | Format  | Status        | Arsitektur                           | Tautan Unduhan                                                                  |
-| :--------------- | :------ | :------------ | :----------------------------------- | :------------------------------------------------------------------------------ |
-| **Android**      | `.apk`  | Rilis Terbaru | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/latest/download/atheric_release.apk) |
-| **Web Platform** | Web App | Live          | Modern Browsers                      | [Kunjungi Platform Web (atheric.id)](https://atheric.id)                        |
+| Platform         | Format  | Status        | Arsitektur                           | Tautan Unduhan                                                       |
+| :--------------- | :------ | :------------ | :----------------------------------- | :------------------------------------------------------------------- |
+| **Android**      | `.apk`  | Rilis Terbaru | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh Aplikasi](../../releases/latest/download/atheric_release.apk) |
+| **Web Platform** | Web App | Live          | Modern Browsers                      | [Kunjungi Platform Web](https://atheric.id)                          |
 
 > [!NOTE]
 > Informasi mengenai riwayat rilis dan catatan pembaruan dapat dibaca pada menu **[GitHub Releases](../../releases)**.
@@ -97,10 +97,10 @@ Pastikan nilai hash yang dihasilkan identik dengan tabel di atas.
 
 ## Pembaruan Otomatis
 
-Fitur pembaruan langsung lewat aplikasi **mulai berlaku sejak rilis terbaru ini**.
+Aplikasi Atheric Mobile telah dilengkapi mekanisme deteksi pembaruan terintegrasi. Anda dapat memeriksa ketersediaan rilis baru kapan saja melalui:
 
 > [!IMPORTANT]
-> Bagi pengguna yang masih memasang versi sebelumnya, harap melakukan **copot pemasangan (uninstall)** aplikasi lama terlebih dahulu, lalu pasang berkas rilis terbaru ini.
+> Bagi pengguna yang masih memasang versi sebelum 1.0.2, harap melakukan **copot pemasangan (uninstall)** aplikasi lama terlebih dahulu, lalu pasang berkas rilis terbaru ini.
 >
 > Setelah menggunakan versi ini, seluruh pembaruan selanjutnya di masa mendatang dapat langsung diperiksa dan dipasang melalui:
 > **Menu Navigasi > Pengaturan > Cek Pembaruan**
