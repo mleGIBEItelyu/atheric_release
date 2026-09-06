@@ -21,9 +21,9 @@
 
 ## Distribusi Resmi Aplikasi
 
-Repositori ini merupakan portal distribusi publik, publikasi berkas instalasi biner (*installer*), dan dokumentasi resmi untuk ekosistem **Atheric**. Kode sumber aplikasi dikembangkan dan dikelola secara privat pada repositori internal guna menjamin integritas infrastruktur peramalan kuantitatif, keamanan kunci otentikasi, serta kepatuhan perlindungan data.
+Repositori ini merupakan portal distribusi publik, publikasi berkas instalasi biner (_installer_), dan dokumentasi resmi untuk ekosistem **Atheric**. Kode sumber aplikasi dikembangkan dan dikelola secara privat pada repositori internal guna menjamin integritas infrastruktur peramalan kuantitatif, keamanan kunci otentikasi, serta kepatuhan perlindungan data.
 
-Seluruh berkas biner yang dipublikasikan di kanal ini telah melalui proses kompilasi rilis terverifikasi, optimasi byte code, *tree-shaking*, dan penandatanganan digital (*digital signature*).
+Seluruh berkas biner yang dipublikasikan di kanal ini telah melalui proses kompilasi rilis terverifikasi, optimasi byte code, _tree-shaking_, dan penandatanganan digital (_digital signature_).
 
 ---
 
@@ -31,10 +31,10 @@ Seluruh berkas biner yang dipublikasikan di kanal ini telah melalui proses kompi
 
 Paket instalasi resmi dapat diunduh langsung melalui tautan rilis berikut:
 
-| Platform | Format | Status | Arsitektur | Tautan Unduhan |
-| :--- | :--- | :--- | :--- | :--- |
-| **Android** | `.apk` | Rilis Terbaru | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/latest/download/atheric_release.apk) |
-| **Web Platform** | Web App | Live | Modern Browsers | [Kunjungi Platform Web (atheric.id)](https://atheric.id) |
+| Platform         | Format  | Status        | Arsitektur                           | Tautan Unduhan                                                                  |
+| :--------------- | :------ | :------------ | :----------------------------------- | :------------------------------------------------------------------------------ |
+| **Android**      | `.apk`  | Rilis Terbaru | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/latest/download/atheric_release.apk) |
+| **Web Platform** | Web App | Live          | Modern Browsers                      | [Kunjungi Platform Web (atheric.id)](https://atheric.id)                        |
 
 > [!NOTE]
 > Informasi mengenai riwayat rilis dan catatan pembaruan dapat dibaca pada menu **[GitHub Releases](../../releases)**.
@@ -55,24 +55,26 @@ Paket instalasi resmi dapat diunduh langsung melalui tautan rilis berikut:
 
 Untuk memastikan berkas instalasi yang Anda unduh asli dan belum dimodifikasi oleh pihak ketiga, verifikasi integritas berkas rilis berikut:
 
-| Parameter | Spesifikasi |
-| :--- | :--- |
-| **Nama Berkas** | `atheric_release.apk` |
-| **Kanal Distribusi** | Rilis Publik Terbaru |
-| **Ukuran Berkas** | ~61 MB |
-| **Target SDK** | Android 14 (API Level 34) |
-| **Minimum SDK** | Android 11 (API Level 30) |
-| **Algoritma Hash** | `SHA-256` |
-| **Nilai Checksum** | `0B9DC2B001F827603DB85BB61A2DB78A8A37AE26571E4085E4F5D222C3FF8CE7` |
+| Parameter            | Spesifikasi                                                        |
+| :------------------- | :----------------------------------------------------------------- |
+| **Nama Berkas**      | `atheric_release.apk`                                              |
+| **Kanal Distribusi** | Rilis Publik Terbaru                                               |
+| **Ukuran Berkas**    | ~61 MB                                                             |
+| **Target SDK**       | Android 14 (API Level 34)                                          |
+| **Minimum SDK**      | Android 11 (API Level 30)                                          |
+| **Algoritma Hash**   | `SHA-256`                                                          |
+| **Nilai Checksum**   | `0B9DC2B001F827603DB85BB61A2DB78A8A37AE26571E4085E4F5D222C3FF8CE7` |
 
 ### Verifikasi Checksum Mandiri
 
 **Windows (PowerShell):**
+
 ```powershell
 Get-FileHash .\atheric_release.apk -Algorithm SHA256
 ```
 
 **macOS / Linux:**
+
 ```bash
 sha256sum atheric_release.apk
 ```
@@ -81,13 +83,13 @@ Pastikan nilai hash yang dihasilkan identik dengan tabel di atas.
 
 ---
 
-## Panduan Pemasangan (Android Sideload)
+## Panduan Pemasangan
 
 1. Unduh berkas **`atheric_release.apk`** melalui tautan rilis di atas.
 2. Buka berkas APK yang telah selesai diunduh dari bilah notifikasi atau melalui aplikasi **Pengelola Berkas (File Manager)**.
 3. Apabila sistem Android meminta konfirmasi keamanan untuk memasang aplikasi dari sumber tidak dikenal:
    - Ketuk **Setelan / Pengaturan**.
-   - Aktifkan toggle **Izinkan dari sumber ini** (*Allow from this source*).
+   - Aktifkan toggle **Izinkan dari sumber ini** (_Allow from this source_).
 4. Ketuk **Pasang / Install** dan tunggu hingga proses selesai.
 5. Jalankan aplikasi **Atheric**, kemudian masuk menggunakan akun Anda atau akun Google.
 
@@ -95,7 +97,8 @@ Pastikan nilai hash yang dihasilkan identik dengan tabel di atas.
 
 ## Pembaruan Otomatis
 
-Aplikasi Atheric Mobile telah dilengkapi mekanisme deteksi pembaruan terintegrasi. Anda dapat memeriksa ketersediaan rilis baru kapan saja melalui:
+Fitur pembaruan langsung lewat aplikasi **mulai berlaku sejak rilis terbaru ini**. Untuk pembaruan versi selanjutnya di masa mendatang, Anda dapat memeriksa dan memasang rilis baru secara instan melalui:
+
 > **Menu Navigasi > Pengaturan > Cek Pembaruan**
 
 Sistem akan memvalidasi versi terpasang dengan server rilis dan menyediakan opsi unduh langsung tanpa perlu mencopot aplikasi sebelumnya.
