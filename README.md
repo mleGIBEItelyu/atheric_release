@@ -1,13 +1,18 @@
 <div align="center">
 
-  <img src="./assets/atheric-logo-white.png" alt="Atheric AI" width="240" />
+  <img src="./assets/atheric-logo-white.png" alt="Atheric AI" width="260" />
 
-  <p><strong>Terminal Riset, Peramalan Harga & Analitik Pasar Saham Indonesia Berbasis Kecerdasan Buatan</strong></p>
+  <h3>Terminal Riset, Peramalan Harga & Analitik Pasar Saham IDX Berbasis Kecerdasan Buatan</h3>
 
   <p>
-    <img src="https://img.shields.io/badge/Platform-Android%20%7C%20Web-4F7DFF?style=for-the-badge" alt="Platform" />
-    <img src="https://img.shields.io/badge/Status-Production%20Ready-2EC27A?style=for-the-badge" alt="Status" />
-    <img src="https://img.shields.io/badge/Release-v1.0.0-gold?style=for-the-badge" alt="Version" />
+    <a href="https://github.com/mleGIBEItelyu/atheric_release/releases/tag/v1.0.2">
+      <img src="https://img.shields.io/badge/Release-v1.0.2%20(Build%209)-3b82f6?style=for-the-badge&logo=github" alt="Release" />
+    </a>
+    <img src="https://img.shields.io/badge/Platform-Android%2011%2B%20%7C%20Web-2563eb?style=for-the-badge&logo=android" alt="Platform" />
+    <img src="https://img.shields.io/badge/Status-Production%20Ready-10b981?style=for-the-badge" alt="Status" />
+    <a href="./LICENSE">
+      <img src="https://img.shields.io/badge/License-Proprietary-f59e0b?style=for-the-badge" alt="License" />
+    </a>
   </p>
 
 </div>
@@ -16,50 +21,107 @@
 
 ## Distribusi Resmi Aplikasi
 
-Repositori ini dikhususkan sebagai kanal rilis publik, distribusi paket instalasi (_installer_), dan dokumentasi versi aplikasi **Atheric**. Source code utama dikembangkan dan dikelola secara terpusat di repositori internal privat untuk menjaga integritas sistem dan keamanan layanan.
+Repositori ini merupakan portal distribusi publik, publikasi berkas instalasi biner (_installer_), dan pencatatan riwayat versi resmi (**Changelog**) untuk ekosistem **Atheric**. Kode sumber aplikasi dikembangkan dan dikelola secara privat pada repositori internal guna menjamin integritas infrastruktur peramalan kuantitatif, keamanan kunci otentikasi, serta kepatuhan perlindungan data.
 
-Setiap berkas instalasi yang dipublikasikan di sini dibangun secara otomatis melalui pipeline CI/CD GitHub Actions terverifikasi langsung dari kode sumber resmi.
-
----
-
-## Unduh Versi Terbaru
-
-Berkas rilis resmi dapat diunduh melalui tabel berikut atau melalui halaman rilis publik:
-
-| Platform        | Format  | Status | Tautan Unduhan                                   |
-| :-------------- | :------ | :----- | :----------------------------------------------- |
-| Android         | APK     | Stabil | [Unduh Paket APK Terbaru](../../releases/latest) |
-| Web Application | Browser | Live   | [Kunjungi Platform Web](https://atheric.id)      |
-
-Seluruh arsip versi terdahulu dan catatan pembaruan (_changelog_) dapat diakses pada halaman **[Daftar Rilis](../../releases)**.
+Seluruh berkas biner yang dipublikasikan di kanal ini telah melalui proses kompilasi rilis terverifikasi, optimasi byte code, *tree-shaking*, dan penandatanganan digital (*digital signature*).
 
 ---
 
-## Panduan Instalasi Android
+## Unduh Versi Terkini (v1.0.2)
 
-1. Unduh berkas `atheric_release.apk` dari tautan rilis terbaru di atas.
-2. Buka berkas yang telah selesai diunduh melalui notifikasi unduhan atau pengelola berkas (_File Manager_) perangkat Anda.
-3. Apabila sistem menampilkan konfirmasi izin keamanan instalasi aplikasi luar:
-   - Pilih **Pengaturan** pada dialog yang muncul.
-   - Aktifkan opsi **Izinkan dari sumber ini** (_Allow from this source_).
-4. Lanjutkan proses pemasangan hingga selesai.
-5. Jalankan aplikasi Atheric, lalu masuk dengan akun terdaftar atau buat akun baru.
+Paket instalasi resmi dapat diunduh langsung melalui rilis GitHub:
 
----
+| Platform | Format | Versi | Arsitektur | Tautan Unduhan |
+| :--- | :--- | :--- | :--- | :--- |
+| **Android** | `.apk` | `v1.0.2` (Build 9) | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/download/v1.0.2/atheric_release.apk) |
+| **Web Platform** | PWA / Web | `v1.0.2` | Multi-Browser | [Kunjungi Platform Web (atheric.id)](https://atheric.id) |
 
-## Pembaruan Aplikasi
-
-Aplikasi mobile dilengkapi dengan fitur pembaruan terintegrasi pada menu **Pengaturan > Pembaruan Aplikasi**. Saat versi baru tersedia, sistem akan mendeteksi dan memandu pengunduhan berkas pembaruan secara langsung.
+Riwayat seluruh versi dan catatan pembaruan terdahulu dapat ditinjau pada halaman **[Daftar Rilis](../../releases)**.
 
 ---
 
-## Verifikasi & Keamanan
+## Ringkasan Pembaruan Versi 1.0.2
 
-Setiap berkas rilis melewati tahapan validasi otomatis sebelum dipublikasikan:
+- **Rangkuman Analisis AI (AI Synthesis Card):**
+  - Implementasi kartu rangkuman prospek emiten pada halaman detail saham mobile dan web.
+  - Memuat metrik kuantitatif: **Target Resistensi** (dengan kalkulasi potensi kenaikan), **Batas Stop Loss Proteksi**, dan **Sinyal Rekomendasi Model AI**.
+  - Poin analisis padat, terstruktur, dan langsung pada kesimpulan tanpa pengantar bertele-tele.
+- **Penyempurnaan Sentimen Pasar Multi-Pilar:**
+  - Desain speedometer setengah lingkaran yang presisi tanpa pemotongan visual.
+  - Penataan 4 pilar analisis (Berita Media, Kuantitatif Teknikal, Pasar Makro, dan AI Engine) dengan deskripsi ringkas yang terbaca utuh di semua resolusi layar.
+  - Penggunaan icon robot AI engineer profesional menggantikan icon sparkle.
+- **Penyelarasan Warna Semantik Finansial:**
+  - Standar visual navigasi pasar: **Hijau** (Untung / Bullish / BUY), **Kuning** (HOLD / Netral), dan **Merah** (Rugi / Bearish / SELL / Proteksi Risiko) berpadu dengan tema utama Atheric Blue.
+- **Penyelarasan Navigasi & Berita Mingguan:**
+  - Akses ulasan sentimen mingguan IHSG dan berita pasar terkini lebih responsif.
+- **Autentikasi & Pembaruan In-App:**
+  - Peningkatan kehandalan masuk dengan akun Google (OAuth) dan deteksi pembaruan otomatis via menu Pengaturan.
 
-- Pemindaian integritas kode dan ketergantungan paket.
-- Kompilasi biner langsung di lingkungan _runner_ GitHub Actions yang terisolasi.
-- Tanda tangan digital (_release signature_) untuk memastikan aplikasi terbebas dari modifikasi tidak resmi.
+---
+
+## Spesifikasi Teknis & Integritas Berkas
+
+Untuk memastikan berkas instalasi yang Anda unduh asli dan belum dimodifikasi oleh pihak ketiga, verifikasi checksum berkas berikut:
+
+| Parameter | Spesifikasi |
+| :--- | :--- |
+| **Nama Berkas** | `atheric_release.apk` |
+| **Versi Aplikasi** | `1.0.2` (Versi Kode: `9`) |
+| **Ukuran Berkas** | ~61 MB |
+| **Target SDK** | Android 14 (API Level 34) |
+| **Minimum SDK** | Android 11 (API Level 30) |
+| **Algoritma Hash** | `SHA-256` |
+| **Nilai Checksum** | `0B9DC2B001F827603DB85BB61A2DB78A8A37AE26571E4085E4F5D222C3FF8CE7` |
+
+### Verifikasi Checksum Mandiri
+
+**Windows (PowerShell):**
+```powershell
+Get-FileHash .\atheric_release.apk -Algorithm SHA256
+```
+
+**macOS / Linux:**
+```bash
+sha256sum atheric_release.apk
+```
+
+Pastikan nilai hash yang dihasilkan identik dengan tabel di atas.
+
+---
+
+## Panduan Pemasangan (Android Sideload)
+
+1. Unduh berkas **`atheric_release.apk`** melalui tautan rilis di atas.
+2. Buka berkas APK yang telah selesai diunduh dari bilah notifikasi atau melalui aplikasi **Pengelola Berkas (File Manager)**.
+3. Apabila sistem Android meminta konfirmasi keamanan untuk memasang aplikasi dari sumber tidak dikenal:
+   - Ketuk **Setelan / Pengaturan**.
+   - Aktifkan toggle **Izinkan dari sumber ini** (*Allow from this source*).
+4. Ketuk **Pasang / Install** dan tunggu hingga proses selesai.
+5. Jalankan aplikasi **Atheric**, kemudian masuk menggunakan akun Anda atau akun Google.
+
+---
+
+## Pembaruan Otomatis
+
+Aplikasi Atheric Mobile telah dilengkapi mekanisme deteksi pembaruan terintegrasi. Anda dapat memeriksa ketersediaan versi baru kapan saja melalui:
+> **Menu Navigasi > Pengaturan > Cek Pembaruan**
+
+Sistem akan memvalidasi versi terpasang dengan server rilis dan menyediakan opsi unduh langsung tanpa perlu mencopot aplikasi sebelumnya.
+
+---
+
+## Lisensi & Hak Cipta
+
+Distribusi biner aplikasi ini dilindungi di bawah ketentuan lisensi hak cipta proprietary **Atheric AI**. Rincian lisensi penggunaan dapat dibaca pada berkas [LICENSE](./LICENSE).
+
+Seluruh hak cipta atas algoritma peramalan, model kecerdasan buatan, arsitektur data kuantitatif, dan identitas visual merupakan milik sah Atheric AI.
+
+---
+
+## Pernyataan Penyangkalan (Financial Disclaimer)
+
+> **PERINGATAN RISIKO:**
+> Seluruh informasi, data statistik, analisis sentimen, peramalan harga, dan rangkuman kecerdasan buatan yang disajikan dalam aplikasi Atheric merupakan **alat bantu analisis riset dan edukasi keputusan investasi**. Konten yang dihasilkan **bukan merupakan anjuran, ajakan, rekomendasi pasti, atau jaminan keuntungan** untuk melakukan transaksi jual atau beli pada instrumen pasar modal manapun. Keputusan investasi sepenuhnya merupakan tanggung jawab dan hak prerogatif masing-masing investor.
 
 ---
 

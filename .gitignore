@@ -1,0 +1,10 @@
+# Packages & Binaries
+*.apk
+*.aab
+*.zip
+*.tar.gz
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
