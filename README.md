@@ -37,7 +37,7 @@ Paket instalasi resmi dapat diunduh langsung melalui tautan rilis berikut:
 | **Web Platform** | Web App | Live | Modern Browsers | [Kunjungi Platform Web (atheric.id)](https://atheric.id) |
 
 > [!NOTE]
-> Informasi mengenai perbandingan fitur, rincian catatan pembaruan, dan riwayat rilis terdahulu dapat dibaca pada berkas **[Catatan Rilis (RELEASE_NOTES.md)](./RELEASE_NOTES.md)** atau pada menu **[GitHub Releases](../../releases)**.
+> Informasi mengenai riwayat rilis dan catatan pembaruan dapat dibaca pada menu **[GitHub Releases](../../releases)**.
 
 ---
 
