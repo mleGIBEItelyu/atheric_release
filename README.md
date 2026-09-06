@@ -5,8 +5,8 @@
   <h3>Terminal Riset, Peramalan Harga & Analitik Pasar Saham IDX Berbasis Kecerdasan Buatan</h3>
 
   <p>
-    <a href="https://github.com/mleGIBEItelyu/atheric_release/releases/tag/v1.0.2">
-      <img src="https://img.shields.io/badge/Release-v1.0.2-3b82f6?style=for-the-badge&logo=github" alt="Release" />
+    <a href="https://github.com/mleGIBEItelyu/atheric_release/releases/latest">
+      <img src="https://img.shields.io/badge/Release-Terbaru-3b82f6?style=for-the-badge&logo=github" alt="Release" />
     </a>
     <img src="https://img.shields.io/badge/Platform-Android%2011%2B%20%7C%20Web-2563eb?style=for-the-badge&logo=android" alt="Platform" />
     <img src="https://img.shields.io/badge/Status-Production%20Ready-10b981?style=for-the-badge" alt="Status" />
@@ -21,26 +21,41 @@
 
 ## Distribusi Resmi Aplikasi
 
-Repositori ini merupakan portal distribusi publik, publikasi berkas instalasi biner (_installer_), dan pencatatan riwayat versi resmi (**Changelog**) untuk ekosistem **Atheric**. Kode sumber aplikasi dikembangkan dan dikelola secara privat pada repositori internal guna menjamin integritas infrastruktur peramalan kuantitatif, keamanan kunci otentikasi, serta kepatuhan perlindungan data.
+Repositori ini merupakan portal distribusi publik, publikasi berkas instalasi biner (_installer_), dan pencatatan riwayat rilis resmi (**Changelog**) untuk ekosistem **Atheric**. Kode sumber aplikasi dikembangkan dan dikelola secara privat pada repositori internal guna menjamin integritas infrastruktur peramalan kuantitatif, keamanan kunci otentikasi, serta kepatuhan perlindungan data.
 
 Seluruh berkas biner yang dipublikasikan di kanal ini telah melalui proses kompilasi rilis terverifikasi, optimasi byte code, *tree-shaking*, dan penandatanganan digital (*digital signature*).
 
 ---
 
-## Unduh Versi Terkini (v1.0.2)
+## Unduh Versi Terbaru
 
-Paket instalasi resmi dapat diunduh langsung melalui rilis GitHub:
+Paket instalasi resmi dapat diunduh langsung melalui rilis GitHub terbaru:
 
-| Platform | Format | Versi | Arsitektur | Tautan Unduhan |
+| Platform | Format | Status | Arsitektur | Tautan Unduhan |
 | :--- | :--- | :--- | :--- | :--- |
-| **Android** | `.apk` | `v1.0.2` | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/download/v1.0.2/atheric_release.apk) |
-| **Web Platform** | Web App | `v1.0.2` | Modern Browsers | [Kunjungi Platform Web (atheric.id)](https://atheric.id) |
+| **Android** | `.apk` | Rilis Terbaru | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/latest/download/atheric_release.apk) |
+| **Web Platform** | Web App | Live | Modern Browsers | [Kunjungi Platform Web (atheric.id)](https://atheric.id) |
 
 Riwayat seluruh versi dan catatan pembaruan terdahulu dapat ditinjau pada halaman **[Daftar Rilis](../../releases)**.
 
 ---
 
-## Ringkasan Pembaruan Versi 1.0.2
+## Perbandingan Umum: Versi Sebelumnya vs Versi Terbaru
+
+Secara umum, berikut peningkatan dan perbedaan utama versi terbaru dibandingkan versi sebelumnya:
+
+| Aspek & Fitur | Versi Sebelumnya | Versi Terbaru |
+| :--- | :--- | :--- |
+| **Rangkuman Analisis AI** | Belum tersedia di aplikasi mobile | **Hadir resmi**: Kartu analisis prospek emiten, target harga, batas stop loss, dan sinyal AI |
+| **Tampilan Sentimen Pasar** | Speedometer rawan terpotong & teks deskripsi panjang | **Disempurnakan**: Speedometer setengah lingkaran presisi & ringkasan pilar padat |
+| **Palet Warna Indikator** | Warna campuran tanpa standarisasi | **Standar Finansial**: Hijau (Untung/BUY), Kuning (HOLD), Merah (Rugi/SELL/Proteksi) |
+| **Iconografi AI** | Menggunakan icon sparkle generik | **Icon Robot Engineering** yang bersih dan profesional |
+| **Masuk dengan Google** | Transisi autentikasi kadang terhambat | **Optimal**: Alur masuk OAuth langsung diarahkan ke halaman utama |
+| **Pembaruan Aplikasi** | Memerlukan pencopotan manual aplikasi lama | **In-App Updater**: Deteksi dan pasang versi baru langsung dari menu Pengaturan |
+
+---
+
+## Rincian Pembaruan Versi Terbaru
 
 - **Rangkuman Analisis AI (AI Synthesis Card):**
   - Implementasi kartu rangkuman prospek emiten pada halaman detail saham mobile dan web.
@@ -61,12 +76,12 @@ Riwayat seluruh versi dan catatan pembaruan terdahulu dapat ditinjau pada halama
 
 ## Spesifikasi Teknis & Integritas Berkas
 
-Untuk memastikan berkas instalasi yang Anda unduh asli dan belum dimodifikasi oleh pihak ketiga, verifikasi checksum berkas berikut:
+Untuk memastikan berkas instalasi yang Anda unduh asli dan belum dimodifikasi oleh pihak ketiga, verifikasi integritas berkas rilis berikut:
 
 | Parameter | Spesifikasi |
 | :--- | :--- |
 | **Nama Berkas** | `atheric_release.apk` |
-| **Versi Aplikasi** | `1.0.2` |
+| **Kanal Distribusi** | Rilis Publik Terbaru |
 | **Ukuran Berkas** | ~61 MB |
 | **Target SDK** | Android 14 (API Level 34) |
 | **Minimum SDK** | Android 11 (API Level 30) |
