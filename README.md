@@ -34,7 +34,7 @@ Paket instalasi resmi dapat diunduh langsung melalui rilis GitHub:
 | Platform | Format | Versi | Arsitektur | Tautan Unduhan |
 | :--- | :--- | :--- | :--- | :--- |
 | **Android** | `.apk` | `v1.0.2` (Build 9) | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/download/v1.0.2/atheric_release.apk) |
-| **Web Platform** | PWA / Web | `v1.0.2` | Multi-Browser | [Kunjungi Platform Web (atheric.id)](https://atheric.id) |
+| **Web Platform** | Web App | `v1.0.2` | Modern Browsers | [Kunjungi Platform Web (atheric.id)](https://atheric.id) |
 
 Riwayat seluruh versi dan catatan pembaruan terdahulu dapat ditinjau pada halaman **[Daftar Rilis](../../releases)**.
 
