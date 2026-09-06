@@ -6,7 +6,7 @@
 
   <p>
     <a href="https://github.com/mleGIBEItelyu/atheric_release/releases/tag/v1.0.2">
-      <img src="https://img.shields.io/badge/Release-v1.0.2%20(Build%209)-3b82f6?style=for-the-badge&logo=github" alt="Release" />
+      <img src="https://img.shields.io/badge/Release-v1.0.2-3b82f6?style=for-the-badge&logo=github" alt="Release" />
     </a>
     <img src="https://img.shields.io/badge/Platform-Android%2011%2B%20%7C%20Web-2563eb?style=for-the-badge&logo=android" alt="Platform" />
     <img src="https://img.shields.io/badge/Status-Production%20Ready-10b981?style=for-the-badge" alt="Status" />
@@ -33,7 +33,7 @@ Paket instalasi resmi dapat diunduh langsung melalui rilis GitHub:
 
 | Platform | Format | Versi | Arsitektur | Tautan Unduhan |
 | :--- | :--- | :--- | :--- | :--- |
-| **Android** | `.apk` | `v1.0.2` (Build 9) | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/download/v1.0.2/atheric_release.apk) |
+| **Android** | `.apk` | `v1.0.2` | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/download/v1.0.2/atheric_release.apk) |
 | **Web Platform** | Web App | `v1.0.2` | Modern Browsers | [Kunjungi Platform Web (atheric.id)](https://atheric.id) |
 
 Riwayat seluruh versi dan catatan pembaruan terdahulu dapat ditinjau pada halaman **[Daftar Rilis](../../releases)**.
@@ -66,7 +66,7 @@ Untuk memastikan berkas instalasi yang Anda unduh asli dan belum dimodifikasi ol
 | Parameter | Spesifikasi |
 | :--- | :--- |
 | **Nama Berkas** | `atheric_release.apk` |
-| **Versi Aplikasi** | `1.0.2` (Versi Kode: `9`) |
+| **Versi Aplikasi** | `1.0.2` |
 | **Ukuran Berkas** | ~61 MB |
 | **Target SDK** | Android 14 (API Level 34) |
 | **Minimum SDK** | Android 11 (API Level 30) |
