@@ -21,56 +21,33 @@
 
 ## Distribusi Resmi Aplikasi
 
-Repositori ini merupakan portal distribusi publik, publikasi berkas instalasi biner (_installer_), dan pencatatan riwayat rilis resmi (**Changelog**) untuk ekosistem **Atheric**. Kode sumber aplikasi dikembangkan dan dikelola secara privat pada repositori internal guna menjamin integritas infrastruktur peramalan kuantitatif, keamanan kunci otentikasi, serta kepatuhan perlindungan data.
+Repositori ini merupakan portal distribusi publik, publikasi berkas instalasi biner (*installer*), dan dokumentasi resmi untuk ekosistem **Atheric**. Kode sumber aplikasi dikembangkan dan dikelola secara privat pada repositori internal guna menjamin integritas infrastruktur peramalan kuantitatif, keamanan kunci otentikasi, serta kepatuhan perlindungan data.
 
 Seluruh berkas biner yang dipublikasikan di kanal ini telah melalui proses kompilasi rilis terverifikasi, optimasi byte code, *tree-shaking*, dan penandatanganan digital (*digital signature*).
 
 ---
 
-## Unduh Versi Terbaru
+## Unduh Rilis Terbaru
 
-Paket instalasi resmi dapat diunduh langsung melalui rilis GitHub terbaru:
+Paket instalasi resmi dapat diunduh langsung melalui tautan rilis berikut:
 
 | Platform | Format | Status | Arsitektur | Tautan Unduhan |
 | :--- | :--- | :--- | :--- | :--- |
 | **Android** | `.apk` | Rilis Terbaru | `arm64-v8a`, `armeabi-v7a`, `x86_64` | [Unduh atheric_release.apk](../../releases/latest/download/atheric_release.apk) |
 | **Web Platform** | Web App | Live | Modern Browsers | [Kunjungi Platform Web (atheric.id)](https://atheric.id) |
 
-Riwayat seluruh versi dan catatan pembaruan terdahulu dapat ditinjau pada halaman **[Daftar Rilis](../../releases)**.
+> [!NOTE]
+> Informasi mengenai perbandingan fitur, rincian catatan pembaruan, dan riwayat rilis terdahulu dapat dibaca pada berkas **[Catatan Rilis (RELEASE_NOTES.md)](./RELEASE_NOTES.md)** atau pada menu **[GitHub Releases](../../releases)**.
 
 ---
 
-## Perbandingan Umum: Versi Sebelumnya vs Versi Terbaru
+## Fitur Utama Platform
 
-Secara umum, berikut peningkatan dan perbedaan utama versi terbaru dibandingkan versi sebelumnya:
-
-| Aspek & Fitur | Versi Sebelumnya | Versi Terbaru |
-| :--- | :--- | :--- |
-| **Rangkuman Analisis AI** | Belum tersedia di aplikasi mobile | **Hadir resmi**: Kartu analisis prospek emiten, target harga, batas stop loss, dan sinyal AI |
-| **Tampilan Sentimen Pasar** | Speedometer rawan terpotong & teks deskripsi panjang | **Disempurnakan**: Speedometer setengah lingkaran presisi & ringkasan pilar padat |
-| **Palet Warna Indikator** | Warna campuran tanpa standarisasi | **Standar Finansial**: Hijau (Untung/BUY), Kuning (HOLD), Merah (Rugi/SELL/Proteksi) |
-| **Iconografi AI** | Menggunakan icon sparkle generik | **Icon Robot Engineering** yang bersih dan profesional |
-| **Masuk dengan Google** | Transisi autentikasi kadang terhambat | **Optimal**: Alur masuk OAuth langsung diarahkan ke halaman utama |
-| **Pembaruan Aplikasi** | Memerlukan pencopotan manual aplikasi lama | **In-App Updater**: Deteksi dan pasang versi baru langsung dari menu Pengaturan |
-
----
-
-## Rincian Pembaruan Versi Terbaru
-
-- **Rangkuman Analisis AI (AI Synthesis Card):**
-  - Implementasi kartu rangkuman prospek emiten pada halaman detail saham mobile dan web.
-  - Memuat metrik kuantitatif: **Target Resistensi** (dengan kalkulasi potensi kenaikan), **Batas Stop Loss Proteksi**, dan **Sinyal Rekomendasi Model AI**.
-  - Poin analisis padat, terstruktur, dan langsung pada kesimpulan tanpa pengantar bertele-tele.
-- **Penyempurnaan Sentimen Pasar Multi-Pilar:**
-  - Desain speedometer setengah lingkaran yang presisi tanpa pemotongan visual.
-  - Penataan 4 pilar analisis (Berita Media, Kuantitatif Teknikal, Pasar Makro, dan AI Engine) dengan deskripsi ringkas yang terbaca utuh di semua resolusi layar.
-  - Penggunaan icon robot AI engineer profesional menggantikan icon sparkle.
-- **Penyelarasan Warna Semantik Finansial:**
-  - Standar visual navigasi pasar: **Hijau** (Untung / Bullish / BUY), **Kuning** (HOLD / Netral), dan **Merah** (Rugi / Bearish / SELL / Proteksi Risiko) berpadu dengan tema utama Atheric Blue.
-- **Penyelarasan Navigasi & Berita Mingguan:**
-  - Akses ulasan sentimen mingguan IHSG dan berita pasar terkini lebih responsif.
-- **Autentikasi & Pembaruan In-App:**
-  - Peningkatan kehandalan masuk dengan akun Google (OAuth) dan deteksi pembaruan otomatis via menu Pengaturan.
+- **Rangkuman Analisis AI (AI Synthesis):** Evaluasi komprehensif emiten berbasis model kecerdasan buatan yang merangkum Target Resistensi, Batas Stop Loss Proteksi Risiko, dan Sinyal Rekomendasi Model secara padat dan terstruktur.
+- **Sentimen Pasar Multi-Pilar:** Visualisasi sentimen kuantitatif terkalibrasi dengan agregasi 4 pilar utama: Berita Media Terkini, Analisis Teknikal, Kondisi Makroekonomi, dan Model Prediksi AI.
+- **Navigasi Warna Semantik Finansial:** Standar visual pasar modal yang konsisten: Hijau (Untung/BUY), Kuning (HOLD), dan Merah (Rugi/SELL/Proteksi Risiko) dipadukan dengan tema Atheric Blue.
+- **Pemantauan Pasar & Ranking Emiten:** Indeks bursa real-time, grafik pergerakan harga interaktif dengan proyeksi peramalan, dan pemeringkatan saham potensial IDX.
+- **Pembaruan Aplikasi In-App:** Deteksi dan pemasangan rilis aplikasi terbaru langsung dari dalam aplikasi tanpa perlu proses instalasi ulang secara manual.
 
 ---
 
@@ -118,7 +95,7 @@ Pastikan nilai hash yang dihasilkan identik dengan tabel di atas.
 
 ## Pembaruan Otomatis
 
-Aplikasi Atheric Mobile telah dilengkapi mekanisme deteksi pembaruan terintegrasi. Anda dapat memeriksa ketersediaan versi baru kapan saja melalui:
+Aplikasi Atheric Mobile telah dilengkapi mekanisme deteksi pembaruan terintegrasi. Anda dapat memeriksa ketersediaan rilis baru kapan saja melalui:
 > **Menu Navigasi > Pengaturan > Cek Pembaruan**
 
 Sistem akan memvalidasi versi terpasang dengan server rilis dan menyediakan opsi unduh langsung tanpa perlu mencopot aplikasi sebelumnya.
