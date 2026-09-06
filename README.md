@@ -97,11 +97,13 @@ Pastikan nilai hash yang dihasilkan identik dengan tabel di atas.
 
 ## Pembaruan Otomatis
 
-Fitur pembaruan langsung lewat aplikasi **mulai berlaku sejak rilis terbaru ini**. Untuk pembaruan versi selanjutnya di masa mendatang, Anda dapat memeriksa dan memasang rilis baru secara instan melalui:
+Fitur pembaruan langsung lewat aplikasi **mulai berlaku sejak rilis terbaru ini**.
 
+> [!IMPORTANT]
+> Bagi pengguna yang masih memasang versi sebelumnya, harap melakukan **copot pemasangan (uninstall)** aplikasi lama terlebih dahulu, lalu pasang berkas rilis terbaru ini.
+>
+> Setelah menggunakan versi ini, seluruh pembaruan selanjutnya di masa mendatang dapat langsung diperiksa dan dipasang melalui:
 > **Menu Navigasi > Pengaturan > Cek Pembaruan**
-
-Sistem akan memvalidasi versi terpasang dengan server rilis dan menyediakan opsi unduh langsung tanpa perlu mencopot aplikasi sebelumnya.
 
 ---
 
